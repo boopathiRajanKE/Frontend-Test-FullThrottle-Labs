@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: #7e6be8;
+}
+
+.ft-test-wrapper {
+  max-width: 700px;
+  font-family: sans-serif;
+  margin: 0 auto;
+  color: white;
+}
+
+.ft-test-title {
+  font-size: 44px;
+}
+
+.ft-test-name-element {
+  padding-bottom: 20px;
+  font-size: 19px;
+  cursor: pointer;
+}
+.ft-modal-wrapper {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ft-modal {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.ft-modal-block {
+  margin: 30px;
+  padding: 30px;
+  border-radius: 9px;
+  background: #343434;
+  min-width: 500px;
+}
+.ft-activity-range {
+  margin-bottom: 10px;
+}
+
+.ft-test-view-all-btn {
+  width: 183px;
+  margin: 30px auto 0;
+  display: block;
+  overflow: hidden;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 800;
+  text-align: center;
+}
+
+.ft-test-calender-wrapper {
+  background: white;
+  color: black;
+  margin-top: 40px;
+  height: 500px;
+}
